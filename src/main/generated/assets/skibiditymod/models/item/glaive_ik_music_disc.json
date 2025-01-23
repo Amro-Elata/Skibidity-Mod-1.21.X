@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "skibiditymod:item/glaive_ik_music_disc"
+  }
+}
