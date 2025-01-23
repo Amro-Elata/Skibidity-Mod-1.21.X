@@ -1,0 +1,9 @@
+// 1.21.1	2025-01-23T21:45:13.3968801	Skibidity Mod/Tags for minecraft:block
+a46204336b97c4d592a7e9024a1a983b6ead4609 data\minecraft\tags\block\needs_diamond_tool.json
+9463ec5d74c475397c45745c303d1238d29b82a1 data\skibiditymod\tags\block\needs_pink_garnet_tool.json
+7b5fdfd76bcd9541755e82f71854b7cc79fc05f2 data\minecraft\tags\block\logs_that_burn.json
+db1dce928d229352f0d8334801e992bfff3d7054 data\minecraft\tags\block\needs_iron_tool.json
+6c98ceb77a047737815a226ef998acbaa2ff702e data\minecraft\tags\block\walls.json
+e2c7a8a24aba1ab50a6a3f36914340d3f08634ef data\minecraft\tags\block\mineable\pickaxe.json
+04310c702bdafec5f83cc15f20960e0f0210f6f5 data\minecraft\tags\block\fences.json
+dbe0563a56714bb827442d069735b0a5e97b7d4b data\minecraft\tags\block\fence_gates.json
