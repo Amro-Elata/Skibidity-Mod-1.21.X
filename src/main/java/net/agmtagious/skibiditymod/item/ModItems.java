@@ -75,8 +75,54 @@ public class ModItems {
     public static final Item KAUPEN_BOW = registerItem("kaupen_bow",
             new BowItem(new Item.Settings().maxDamage(500)));
 
-    public static final Item BAR_BRAWL_MUSIC_DISC = registerItem("bar_brawl_music_disc",
-            new Item(new Item.Settings().jukeboxPlayable(ModSounds.BAR_BRAWL_KEY).maxCount(1)));
+
+
+
+
+        //sample disk
+        public static final Item BAR_BRAWL_MUSIC_DISC = registerItem("bar_brawl_music_disc",
+                new Item(new Item.Settings().jukeboxPlayable(ModSounds.BAR_BRAWL_KEY).maxCount(1)));
+
+
+
+            //may it never falter discs
+            public static final Item GLAIVE_FGAC_DISC = registerItem("glaive_fgac_music_disc",
+                    new Item(new Item.Settings().jukeboxPlayable(ModSounds.GLAIVE_FGAC_KEY).maxCount(1)));
+
+            public static final Item GLAIVE_ISK_DISC = registerItem("glaive_isk_music_disc",
+                    new Item(new Item.Settings().jukeboxPlayable(ModSounds.GLAIVE_ISK_KEY).maxCount(1)));
+
+            public static final Item GLAIVE_COUNT_IT_UP_DISC = registerItem("glaive_count_it_up_music_disc",
+                    new Item(new Item.Settings().jukeboxPlayable(ModSounds.GLAIVE_COUNT_IT_UP_KEY).maxCount(1)));
+
+            public static final Item GLAIVE_IK_DISC = registerItem("glaive_ik_music_disc",
+                    new Item(new Item.Settings().jukeboxPlayable(ModSounds.GLAIVE_IK_KEY).maxCount(1)));
+
+            public static final Item GLAIVE_JOEL_DISC = registerItem("glaive_joel_music_disc",
+                    new Item(new Item.Settings().jukeboxPlayable(ModSounds.GLAIVE_JOEL_KEY).maxCount(1)));
+
+            public static final Item GLAIVE_LND_DISC = registerItem("glaive_lnd_music_disc",
+                    new Item(new Item.Settings().jukeboxPlayable(ModSounds.GLAIVE_LND_KEY).maxCount(1)));
+
+            public static final Item GLAIVE_KRD_DISC = registerItem("glaive_kdr_music_disc",
+                    new Item(new Item.Settings().jukeboxPlayable(ModSounds.GLAIVE_KRD_KEY).maxCount(1)));
+
+            public static final Item GLAIVE_EHID_DISC = registerItem("glaive_ehid_music_disc",
+                    new Item(new Item.Settings().jukeboxPlayable(ModSounds.GLAIVE_EHID_KEY).maxCount(1)));
+
+            public static final Item GLAIVE_FREUDIAN_DISC = registerItem("glaive_freudian_music_disc",
+                    new Item(new Item.Settings().jukeboxPlayable(ModSounds.GLAIVE_FREUDIAN_KEY).maxCount(1)));
+
+            public static final Item GLAIVE_NFAMO_DISC = registerItem("glaive_nfamo_music_disc",
+                    new Item(new Item.Settings().jukeboxPlayable(ModSounds.GLAIVE_NFAMO_KEY).maxCount(1)));
+
+            public static final Item GLAIVE_BB_DISC = registerItem("glaive_bb_music_disc",
+                    new Item(new Item.Settings().jukeboxPlayable(ModSounds.GLAIVE_BB_KEY).maxCount(1)));
+
+
+
+
+
 
     public static final Item CAULIFLOWER_SEEDS = registerItem("cauliflower_seeds",
             new AliasedBlockItem(ModBlocks.CAULIFLOWER_CROP, new Item.Settings()));

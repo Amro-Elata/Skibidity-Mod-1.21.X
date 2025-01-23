@@ -23,8 +23,44 @@
 
   "item.skibiditymod.kaupen_bow": "Kaupen Bow",
 
-  "item.skibiditymod.bar_brawl_music_disc": "Bar Brawl Music Disc",
-  "item.skibiditymod.bar_brawl_music_disc.desc": "Bryan Tech - Bar Brawl (CC0)",
+
+    "item.skibiditymod.bar_brawl_music_disc": "Bar Brawl Music Disc",
+    "item.skibiditymod.bar_brawl_music_disc.desc": "Bryan Tech - Bar Brawl (CC0)",
+
+      "item.skibiditymod.glaive_fgac_music_disc": "For God And Country",
+      "item.skibiditymod.glaive_fgac_music_disc.desc": "Glaive - May It Never Falter",
+
+      "item.skibiditymod.glaive_isk_music_disc": "60.000 ISK",
+      "item.skibiditymod.glaive_isk_music_disc.desc": "Glaive - May It Never Falter",
+
+      "item.skibiditymod.glaive_count_it_up_music_disc": "Count It Up",
+      "item.skibiditymod.glaive_count_it_up_music_disc.desc": "Glaive - May It Never Falter",
+
+      "item.skibiditymod.glaive_ik_music_disc": "ik",
+      "item.skibiditymod.glaive_ik_music_disc.desc": "Glaive - May It Never Falter",
+
+      "item.skibiditymod.glaive_joel_music_disc": "joel",
+      "item.skibiditymod.glaive_joel_music_disc.desc": "Glaive - May It Never Falter",
+
+      "item.skibiditymod.glaive_lnd_music_disc": "Live & Direct (feat. Kurtains)",
+      "item.skibiditymod.glaive_lnd_music_disc.desc": "Glaive - May It Never Falter",
+
+      "item.skibiditymod.glaive_kdr_music_disc": "Knock, Draw, Release",
+      "item.skibiditymod.glaive_kdr_music_disc.desc": "Glaive - May It Never Falter",
+
+      "item.skibiditymod.glaive_ehid_music_disc": "EVERYDOG HAS ITS DAY",
+      "item.skibiditymod.glaive_ehid_music_disc.desc": "Glaive - May It Never Falter",
+
+      "item.skibiditymod.glaive_freudian_music_disc": "Freudian",
+      "item.skibiditymod.glaive_freudian_music_disc.desc": "Glaive - May It Never Falter",
+
+      "item.skibiditymod.glaive_nfamo_music_disc": "Nobody's Fault / Accept My Own",
+      "item.skibiditymod.glaive_nfamo_music_disc.desc": "Glaive - May It Never Falter",
+
+      "item.skibiditymod.glaive_bb_music_disc": "By Birthright",
+      "item.skibiditymod.glaive_bb_music_disc.desc": "Glaive - May It Never Falter",
+
+
 
   "item.skibiditymod.cauliflower_seeds": "Cauliflower Seeds",
   "item.skibiditymod.honey_berries": "Honey Berries",

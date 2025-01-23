@@ -22,9 +22,61 @@ public class ModSounds {
     public static final BlockSoundGroup MAGIC_BLOCK_SOUNDS = new BlockSoundGroup(1f, 1f,
             MAGIC_BLOCK_BREAK, MAGIC_BLOCK_STEP, MAGIC_BLOCK_PLACE, MAGIC_BLOCK_HIT, MAGIC_BLOCK_FALL);
 
-    public static final SoundEvent BAR_BRAWL = registerSoundEvent("bar_brawl");
-    public static final RegistryKey<JukeboxSong> BAR_BRAWL_KEY =
-            RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(SkibidityMod.MOD_ID, "bar_brawl"));
+
+        //EXAMPLE song
+        public static final SoundEvent BAR_BRAWL = registerSoundEvent("bar_brawl");
+        public static final RegistryKey<JukeboxSong> BAR_BRAWL_KEY =
+                RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(SkibidityMod.MOD_ID, "bar_brawl"));
+
+            //MAY IT NEVER FALTER GLAIVE songs
+            public static final SoundEvent GLAIVE_FGAC = registerSoundEvent("glaive_fgac");
+            public static final RegistryKey<JukeboxSong> GLAIVE_FGAC_KEY =
+            RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(SkibidityMod.MOD_ID, "glaive_fgac"));
+
+            public static final SoundEvent GLAIVE_ISK = registerSoundEvent("glaive_isk");
+            public static final RegistryKey<JukeboxSong> GLAIVE_ISK_KEY =
+            RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(SkibidityMod.MOD_ID, "glaive_isk"));
+
+            public static final SoundEvent GLAIVE_COUNT_IT_UP = registerSoundEvent("glaive_count_it_up");
+            public static final RegistryKey<JukeboxSong> GLAIVE_COUNT_IT_UP_KEY =
+            RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(SkibidityMod.MOD_ID, "glaive_count_it_up"));
+
+            public static final SoundEvent GLAIVE_IK = registerSoundEvent("glaive_ik");
+            public static final RegistryKey<JukeboxSong> GLAIVE_IK_KEY =
+            RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(SkibidityMod.MOD_ID, "glaive_ik"));
+
+            public static final SoundEvent GLAIVE_JOEL = registerSoundEvent("glaive_joel");
+            public static final RegistryKey<JukeboxSong> GLAIVE_JOEL_KEY =
+            RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(SkibidityMod.MOD_ID, "glaive_joel"));
+
+            public static final SoundEvent GLAIVE_LND = registerSoundEvent("glaive_lnd");
+            public static final RegistryKey<JukeboxSong> GLAIVE_LND_KEY =
+            RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(SkibidityMod.MOD_ID, "glaive_lnd"));
+
+            public static final SoundEvent GLAIVE_KRD = registerSoundEvent("glaive_kdr");
+            public static final RegistryKey<JukeboxSong> GLAIVE_KRD_KEY =
+            RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(SkibidityMod.MOD_ID, "glaive_kdr"));
+
+            public static final SoundEvent GLAIVE_EHID = registerSoundEvent("glaive_ehid");
+            public static final RegistryKey<JukeboxSong> GLAIVE_EHID_KEY =
+            RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(SkibidityMod.MOD_ID, "glaive_ehid"));
+
+            public static final SoundEvent GLAIVE_FREUDIAN = registerSoundEvent("glaive_freudian");
+            public static final RegistryKey<JukeboxSong> GLAIVE_FREUDIAN_KEY =
+            RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(SkibidityMod.MOD_ID, "glaive_freudian"));
+
+            public static final SoundEvent GLAIVE_NFAMO = registerSoundEvent("glaive_nfamo");
+            public static final RegistryKey<JukeboxSong> GLAIVE_NFAMO_KEY =
+            RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(SkibidityMod.MOD_ID, "glaive_nfamo"));
+
+            public static final SoundEvent GLAIVE_bb = registerSoundEvent("glaive_bb");
+            public static final RegistryKey<JukeboxSong> GLAIVE_BB_KEY =
+            RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(SkibidityMod.MOD_ID, "glaive_bb"));
+
+
+
+
+
 
 
     private static SoundEvent registerSoundEvent(String name) {

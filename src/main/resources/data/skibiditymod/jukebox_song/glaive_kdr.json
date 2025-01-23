@@ -1,0 +1,8 @@
+{
+  "comparator_output": 15,
+  "description": {
+    "translate": "item.skibiditymod.glaive_kdr_music_disc.desc"
+  },
+  "length_in_seconds": 131.0,
+  "sound_event": "skibiditymod:glaive_kdr"
+}

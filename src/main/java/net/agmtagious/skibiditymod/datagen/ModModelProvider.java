@@ -87,7 +87,21 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.PINK_GARNET_HORSE_ARMOR, Models.GENERATED);
         itemModelGenerator.register(ModItems.KAUPEN_SMITHING_TEMPLATE, Models.GENERATED);
 
-        itemModelGenerator.register(ModItems.BAR_BRAWL_MUSIC_DISC, Models.GENERATED);
+            //SAMPLE DISC REGISTER
+            itemModelGenerator.register(ModItems.BAR_BRAWL_MUSIC_DISC, Models.GENERATED);
+
+                //MINF DISC REGISTER
+                itemModelGenerator.register(ModItems.GLAIVE_FGAC_DISC, Models.GENERATED);
+                itemModelGenerator.register(ModItems.GLAIVE_ISK_DISC, Models.GENERATED);
+                itemModelGenerator.register(ModItems.GLAIVE_COUNT_IT_UP_DISC, Models.GENERATED);
+                itemModelGenerator.register(ModItems.GLAIVE_IK_DISC, Models.GENERATED);
+                itemModelGenerator.register(ModItems.GLAIVE_JOEL_DISC, Models.GENERATED);
+                itemModelGenerator.register(ModItems.GLAIVE_LND_DISC, Models.GENERATED);
+                itemModelGenerator.register(ModItems.GLAIVE_KRD_DISC, Models.GENERATED);
+                itemModelGenerator.register(ModItems.GLAIVE_EHID_DISC, Models.GENERATED);
+                itemModelGenerator.register(ModItems.GLAIVE_FREUDIAN_DISC, Models.GENERATED);
+                itemModelGenerator.register(ModItems.GLAIVE_NFAMO_DISC, Models.GENERATED);
+                itemModelGenerator.register(ModItems.GLAIVE_BB_DISC, Models.GENERATED);
 
         itemModelGenerator.register(ModBlocks.DRIFTWOOD_SAPLING.asItem(), Models.GENERATED);
 

@@ -41,7 +41,21 @@ public class ModItemGroups {
                         entries.add(ModItems.KAUPEN_SMITHING_TEMPLATE);
 
                         entries.add(ModItems.KAUPEN_BOW);
-                        entries.add(ModItems.BAR_BRAWL_MUSIC_DISC);
+                            //SAMPLE DISK ENTRY
+                            entries.add(ModItems.BAR_BRAWL_MUSIC_DISC);
+
+                                //MAY IT NEVER FALTER DISC ENTRIES
+                            entries.add(ModItems.GLAIVE_FGAC_DISC);
+                            entries.add(ModItems.GLAIVE_ISK_DISC);
+                            entries.add(ModItems.GLAIVE_COUNT_IT_UP_DISC);
+                            entries.add(ModItems.GLAIVE_IK_DISC);
+                            entries.add(ModItems.GLAIVE_JOEL_DISC);
+                            entries.add(ModItems.GLAIVE_LND_DISC);
+                            entries.add(ModItems.GLAIVE_KRD_DISC);
+                            entries.add(ModItems.GLAIVE_EHID_DISC);
+                            entries.add(ModItems.GLAIVE_FREUDIAN_DISC);
+                            entries.add(ModItems.GLAIVE_NFAMO_DISC);
+                            entries.add(ModItems.GLAIVE_BB_DISC);
 
                         entries.add(ModItems.CAULIFLOWER_SEEDS);
                         entries.add(ModItems.HONEY_BERRIES);

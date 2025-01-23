@@ -35,10 +35,101 @@
       "skibiditymod:magic_block_fall"
     ]
   },
+
   "bar_brawl": {
     "sounds": [
       {
         "name": "skibiditymod:bar_brawl",
+        "stream": true
+      }
+    ]
+  },
+
+
+  "glaive_fgac": {
+    "sounds": [
+      {
+        "name": "skibiditymod:glaive_fgac",
+        "stream": true
+      }
+    ]
+  },
+  "glaive_isk": {
+    "sounds": [
+      {
+        "name": "skibiditymod:glaive_isk",
+        "stream": true
+      }
+    ]
+  },
+  "glaive_count_it_up": {
+    "sounds": [
+      {
+        "name": "skibiditymod:glaive_count_it_up",
+        "stream": true
+      }
+    ]
+  },
+  "glaive_ik": {
+    "sounds": [
+      {
+        "name": "skibiditymod:glaive_ik",
+        "stream": true
+      }
+    ]
+  },
+  "glaive_joel": {
+    "sounds": [
+      {
+        "name": "skibiditymod:glaive_joel",
+        "stream": true
+      }
+    ]
+  },
+  "glaive_lnd": {
+    "sounds": [
+      {
+        "name": "skibiditymod:glaive_lnd",
+        "stream": true
+      }
+    ]
+  },
+  "glaive_kdr": {
+    "sounds": [
+      {
+        "name": "skibiditymod:glaive_kdr",
+        "stream": true
+      }
+    ]
+  },
+  "glaive_ehid": {
+    "sounds": [
+      {
+        "name": "skibiditymod:glaive_ehid",
+        "stream": true
+      }
+    ]
+  },
+  "glaive_freudian": {
+    "sounds": [
+      {
+        "name": "skibiditymod:glaive_freudian",
+        "stream": true
+      }
+    ]
+  },
+  "glaive_nfamo": {
+    "sounds": [
+      {
+        "name": "skibiditymod:glaive_nfamo",
+        "stream": true
+      }
+    ]
+  },
+  "glaive_bb": {
+    "sounds": [
+      {
+        "name": "skibiditymod:glaive_bb",
         "stream": true
       }
     ]
