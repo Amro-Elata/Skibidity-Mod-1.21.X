@@ -1,7 +1,7 @@
-package net.kaupenjoe.tutorialmod.entity.client;
+package net.agmtagious.skibiditymod.entity.client;
 
-import net.kaupenjoe.tutorialmod.TutorialMod;
-import net.kaupenjoe.tutorialmod.entity.custom.TomahawkProjectileEntity;
+import net.agmtagious.skibiditymod.SkibidityMod;
+import net.agmtagious.skibiditymod.entity.custom.TomahawkProjectileEntity;
 import net.minecraft.client.model.*;
 import net.minecraft.client.render.VertexConsumer;
 import net.minecraft.client.render.entity.model.EntityModel;
@@ -10,7 +10,7 @@ import net.minecraft.client.util.math.MatrixStack;
 import net.minecraft.util.Identifier;
 
 public class TomahawkProjectileModel extends EntityModel<TomahawkProjectileEntity> {
-    public static final EntityModelLayer TOMAHAWK = new EntityModelLayer(Identifier.of(TutorialMod.MOD_ID, "tomahawk"), "main");
+    public static final EntityModelLayer TOMAHAWK = new EntityModelLayer(Identifier.of(SkibidityMod.MOD_ID, "tomahawk"), "main");
     private final ModelPart tomahawk;
 
     public TomahawkProjectileModel(ModelPart root) {

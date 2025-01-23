@@ -1,7 +1,7 @@
-package net.kaupenjoe.tutorialmod.item.custom;
+package net.agmtagious.skibiditymod.item.custom;
 
 import com.google.common.collect.ImmutableMap;
-import net.kaupenjoe.tutorialmod.item.ModArmorMaterials;
+import net.agmtagious.skibiditymod.item.ModArmorMaterials;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffects;

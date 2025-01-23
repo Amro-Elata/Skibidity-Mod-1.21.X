@@ -1,7 +1,7 @@
-package net.kaupenjoe.tutorialmod.world;
+package net.agmtagious.skibiditymod.world;
 
-import net.kaupenjoe.tutorialmod.TutorialMod;
-import net.kaupenjoe.tutorialmod.block.ModBlocks;
+import net.agmtagious.skibiditymod.SkibidityMod;
+import net.agmtagious.skibiditymod.block.ModBlocks;
 import net.minecraft.block.Blocks;
 import net.minecraft.block.SweetBerryBushBlock;
 import net.minecraft.registry.Registerable;
@@ -65,7 +65,7 @@ public class ModConfiguredFeatures {
     }
 
     public static RegistryKey<ConfiguredFeature<?, ?>> registerKey(String name) {
-        return RegistryKey.of(RegistryKeys.CONFIGURED_FEATURE, Identifier.of(TutorialMod.MOD_ID, name));
+        return RegistryKey.of(RegistryKeys.CONFIGURED_FEATURE, Identifier.of(SkibidityMod.MOD_ID, name));
     }
 
     private static <FC extends FeatureConfig, F extends Feature<FC>> void register(Registerable<ConfiguredFeature<?, ?>> context,

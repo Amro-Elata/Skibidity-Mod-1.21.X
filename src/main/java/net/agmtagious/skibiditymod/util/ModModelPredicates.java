@@ -1,15 +1,15 @@
-package net.kaupenjoe.tutorialmod.util;
+package net.agmtagious.skibiditymod.util;
 
-import net.kaupenjoe.tutorialmod.TutorialMod;
-import net.kaupenjoe.tutorialmod.component.ModDataComponentTypes;
-import net.kaupenjoe.tutorialmod.item.ModItems;
+import net.agmtagious.skibiditymod.SkibidityMod;
+import net.agmtagious.skibiditymod.component.ModDataComponentTypes;
+import net.agmtagious.skibiditymod.item.ModItems;
 import net.minecraft.client.item.ModelPredicateProviderRegistry;
 import net.minecraft.item.Item;
 import net.minecraft.util.Identifier;
 
 public class ModModelPredicates {
     public static void registerModelPredicates() {
-        ModelPredicateProviderRegistry.register(ModItems.CHISEL, Identifier.of(TutorialMod.MOD_ID, "used"),
+        ModelPredicateProviderRegistry.register(ModItems.CHISEL, Identifier.of(SkibidityMod.MOD_ID, "used"),
                 (stack, world, entity, seed) -> stack.get(ModDataComponentTypes.COORDINATES) != null ? 1f : 0f);
 
         registerCustomBow(ModItems.KAUPEN_BOW);

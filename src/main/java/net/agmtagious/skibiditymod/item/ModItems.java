@@ -1,14 +1,14 @@
-package net.kaupenjoe.tutorialmod.item;
+package net.agmtagious.skibiditymod.item;
 
+import net.agmtagious.skibiditymod.SkibidityMod;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
-import net.kaupenjoe.tutorialmod.TutorialMod;
-import net.kaupenjoe.tutorialmod.block.ModBlocks;
-import net.kaupenjoe.tutorialmod.entity.ModEntities;
-import net.kaupenjoe.tutorialmod.item.custom.ChiselItem;
-import net.kaupenjoe.tutorialmod.item.custom.HammerItem;
-import net.kaupenjoe.tutorialmod.item.custom.ModArmorItem;
-import net.kaupenjoe.tutorialmod.item.custom.TomahawkItem;
-import net.kaupenjoe.tutorialmod.sound.ModSounds;
+import net.agmtagious.skibiditymod.block.ModBlocks;
+import net.agmtagious.skibiditymod.entity.ModEntities;
+import net.agmtagious.skibiditymod.item.custom.ChiselItem;
+import net.agmtagious.skibiditymod.item.custom.HammerItem;
+import net.agmtagious.skibiditymod.item.custom.ModArmorItem;
+import net.agmtagious.skibiditymod.item.custom.TomahawkItem;
+import net.agmtagious.skibiditymod.sound.ModSounds;
 import net.minecraft.item.*;
 import net.minecraft.item.tooltip.TooltipType;
 import net.minecraft.registry.Registries;
@@ -70,7 +70,7 @@ public class ModItems {
     public static final Item PINK_GARNET_HORSE_ARMOR = registerItem("pink_garnet_horse_armor",
             new AnimalArmorItem(ModArmorMaterials.PINK_GARNET_ARMOR_MATERIAL, AnimalArmorItem.Type.EQUESTRIAN, false, new Item.Settings().maxCount(1)));
     public static final Item KAUPEN_SMITHING_TEMPLATE = registerItem("kaupen_armor_trim_smithing_template",
-            SmithingTemplateItem.of(Identifier.of(TutorialMod.MOD_ID, "kaupen"), FeatureFlags.VANILLA));
+            SmithingTemplateItem.of(Identifier.of(SkibidityMod.MOD_ID, "kaupen"), FeatureFlags.VANILLA));
 
     public static final Item KAUPEN_BOW = registerItem("kaupen_bow",
             new BowItem(new Item.Settings().maxDamage(500)));
@@ -95,11 +95,11 @@ public class ModItems {
 
 
     private static Item registerItem(String name, Item item) {
-        return Registry.register(Registries.ITEM, Identifier.of(TutorialMod.MOD_ID, name), item);
+        return Registry.register(Registries.ITEM, Identifier.of(SkibidityMod.MOD_ID, name), item);
     }
 
     public static void registerModItems() {
-        TutorialMod.LOGGER.info("Registering Mod Items for " + TutorialMod.MOD_ID);
+        SkibidityMod.LOGGER.info("Registering Mod Items for " + SkibidityMod.MOD_ID);
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
             entries.add(PINK_GARNET);

@@ -1,8 +1,8 @@
-package net.kaupenjoe.tutorialmod.mixin;
+package net.agmtagious.skibiditymod.mixin;
 
 import com.llamalad7.mixinextras.sugar.Local;
-import net.kaupenjoe.tutorialmod.TutorialMod;
-import net.kaupenjoe.tutorialmod.item.ModItems;
+import net.agmtagious.skibiditymod.SkibidityMod;
+import net.agmtagious.skibiditymod.item.ModItems;
 import net.minecraft.client.render.item.ItemModels;
 import net.minecraft.client.render.item.ItemRenderer;
 import net.minecraft.client.render.model.BakedModel;
@@ -33,7 +33,7 @@ public abstract class ItemRendererMixin {
     )
     public BakedModel renderItem(BakedModel bakedModel, @Local(argsOnly = true) ItemStack stack, @Local(argsOnly = true) ModelTransformationMode renderMode) {
         if (stack.getItem() == ModItems.SPECTRE_STAFF && (renderMode == ModelTransformationMode.GUI || renderMode == ModelTransformationMode.GROUND || renderMode == ModelTransformationMode.FIXED)) {
-            return getModels().getModelManager().getModel(ModelIdentifier.ofInventoryVariant(Identifier.of(TutorialMod.MOD_ID, "spectre_staff")));
+            return getModels().getModelManager().getModel(ModelIdentifier.ofInventoryVariant(Identifier.of(SkibidityMod.MOD_ID, "spectre_staff")));
         }
 
         return bakedModel;
@@ -46,7 +46,7 @@ public abstract class ItemRendererMixin {
     )
     public BakedModel getHeldItemModelMixin(BakedModel bakedModel, @Local(argsOnly = true) ItemStack stack) {
         if (stack.getItem() == ModItems.SPECTRE_STAFF) {
-            return this.models.getModelManager().getModel(ModelIdentifier.ofInventoryVariant(Identifier.of(TutorialMod.MOD_ID, "spectre_staff_3d")));
+            return this.models.getModelManager().getModel(ModelIdentifier.ofInventoryVariant(Identifier.of(SkibidityMod.MOD_ID, "spectre_staff_3d")));
         }
 
         return bakedModel;

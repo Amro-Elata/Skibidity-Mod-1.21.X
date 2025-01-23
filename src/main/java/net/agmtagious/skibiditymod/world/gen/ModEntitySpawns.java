@@ -1,8 +1,8 @@
-package net.kaupenjoe.tutorialmod.world.gen;
+package net.agmtagious.skibiditymod.world.gen;
 
 import net.fabricmc.fabric.api.biome.v1.BiomeModifications;
 import net.fabricmc.fabric.api.biome.v1.BiomeSelectors;
-import net.kaupenjoe.tutorialmod.entity.ModEntities;
+import net.agmtagious.skibiditymod.entity.ModEntities;
 import net.minecraft.entity.SpawnGroup;
 import net.minecraft.entity.SpawnLocationTypes;
 import net.minecraft.entity.SpawnRestriction;

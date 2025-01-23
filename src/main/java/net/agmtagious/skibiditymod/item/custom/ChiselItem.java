@@ -1,13 +1,11 @@
-package net.kaupenjoe.tutorialmod.item.custom;
+package net.agmtagious.skibiditymod.item.custom;
 
-import net.kaupenjoe.tutorialmod.block.ModBlocks;
-import net.kaupenjoe.tutorialmod.component.ModDataComponentTypes;
-import net.kaupenjoe.tutorialmod.sound.ModSounds;
+import net.agmtagious.skibiditymod.block.ModBlocks;
+import net.agmtagious.skibiditymod.component.ModDataComponentTypes;
+import net.agmtagious.skibiditymod.sound.ModSounds;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraft.client.gui.screen.Screen;
-import net.minecraft.component.DataComponentTypes;
-import net.minecraft.component.type.LoreComponent;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.effect.StatusEffectInstance;
@@ -19,7 +17,6 @@ import net.minecraft.item.tooltip.TooltipType;
 import net.minecraft.server.network.ServerPlayerEntity;
 import net.minecraft.server.world.ServerWorld;
 import net.minecraft.sound.SoundCategory;
-import net.minecraft.sound.SoundEvents;
 import net.minecraft.text.Text;
 import net.minecraft.util.ActionResult;
 import net.minecraft.util.math.MathHelper;

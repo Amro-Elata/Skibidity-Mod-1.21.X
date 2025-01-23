@@ -1,6 +1,6 @@
-package net.kaupenjoe.tutorialmod.entity.client;
+package net.agmtagious.skibiditymod.entity.client;
 
-import net.kaupenjoe.tutorialmod.entity.custom.ChairEntity;
+import net.agmtagious.skibiditymod.entity.custom.ChairEntity;
 import net.minecraft.client.render.Frustum;
 import net.minecraft.client.render.entity.EntityRenderer;
 import net.minecraft.client.render.entity.EntityRendererFactory;

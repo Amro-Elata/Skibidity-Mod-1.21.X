@@ -1,6 +1,6 @@
-package net.kaupenjoe.tutorialmod.component;
+package net.agmtagious.skibiditymod.component;
 
-import net.kaupenjoe.tutorialmod.TutorialMod;
+import net.agmtagious.skibiditymod.SkibidityMod;
 import net.minecraft.component.ComponentType;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
@@ -15,11 +15,11 @@ public class ModDataComponentTypes {
 
 
     private static <T>ComponentType<T> register(String name, UnaryOperator<ComponentType.Builder<T>> builderOperator) {
-        return Registry.register(Registries.DATA_COMPONENT_TYPE, Identifier.of(TutorialMod.MOD_ID, name),
+        return Registry.register(Registries.DATA_COMPONENT_TYPE, Identifier.of(SkibidityMod.MOD_ID, name),
                 builderOperator.apply(ComponentType.builder()).build());
     }
 
     public static void registerDataComponentTypes() {
-        TutorialMod.LOGGER.info("Registering Data Component Types for " + TutorialMod.MOD_ID);
+        SkibidityMod.LOGGER.info("Registering Data Component Types for " + SkibidityMod.MOD_ID);
     }
 }

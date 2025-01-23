@@ -1,9 +1,9 @@
-package net.kaupenjoe.tutorialmod.entity.client;
+package net.agmtagious.skibiditymod.entity.client;
 
 import com.google.common.collect.Maps;
-import net.kaupenjoe.tutorialmod.TutorialMod;
-import net.kaupenjoe.tutorialmod.entity.custom.MantisEntity;
-import net.kaupenjoe.tutorialmod.entity.custom.MantisVariant;
+import net.agmtagious.skibiditymod.SkibidityMod;
+import net.agmtagious.skibiditymod.entity.custom.MantisEntity;
+import net.agmtagious.skibiditymod.entity.custom.MantisVariant;
 import net.minecraft.client.render.VertexConsumerProvider;
 import net.minecraft.client.render.entity.EntityRendererFactory;
 import net.minecraft.client.render.entity.MobEntityRenderer;
@@ -17,9 +17,9 @@ public class MantisRenderer extends MobEntityRenderer<MantisEntity, MantisModel<
     private static final Map<MantisVariant, Identifier> LOCATION_BY_VARIANT =
             Util.make(Maps.newEnumMap(MantisVariant.class), map -> {
                 map.put(MantisVariant.DEFAULT,
-                        Identifier.of(TutorialMod.MOD_ID, "textures/entity/mantis/mantis.png"));
+                        Identifier.of(SkibidityMod.MOD_ID, "textures/entity/mantis/mantis.png"));
                 map.put(MantisVariant.ORCHID,
-                        Identifier.of(TutorialMod.MOD_ID, "textures/entity/mantis/mantis_orchid.png"));
+                        Identifier.of(SkibidityMod.MOD_ID, "textures/entity/mantis/mantis_orchid.png"));
             });
 
     public MantisRenderer(EntityRendererFactory.Context context) {

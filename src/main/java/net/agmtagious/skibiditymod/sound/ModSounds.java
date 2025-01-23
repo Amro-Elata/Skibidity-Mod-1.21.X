@@ -1,6 +1,6 @@
-package net.kaupenjoe.tutorialmod.sound;
+package net.agmtagious.skibiditymod.sound;
 
-import net.kaupenjoe.tutorialmod.TutorialMod;
+import net.agmtagious.skibiditymod.SkibidityMod;
 import net.minecraft.block.jukebox.JukeboxSong;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
@@ -24,15 +24,15 @@ public class ModSounds {
 
     public static final SoundEvent BAR_BRAWL = registerSoundEvent("bar_brawl");
     public static final RegistryKey<JukeboxSong> BAR_BRAWL_KEY =
-            RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(TutorialMod.MOD_ID, "bar_brawl"));
+            RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(SkibidityMod.MOD_ID, "bar_brawl"));
 
 
     private static SoundEvent registerSoundEvent(String name) {
-        Identifier id = Identifier.of(TutorialMod.MOD_ID, name);
+        Identifier id = Identifier.of(SkibidityMod.MOD_ID, name);
         return Registry.register(Registries.SOUND_EVENT, id, SoundEvent.of(id));
     }
 
     public static void registerSounds() {
-        TutorialMod.LOGGER.info("Registering Mod Sounds for " + TutorialMod.MOD_ID);
+        SkibidityMod.LOGGER.info("Registering Mod Sounds for " + SkibidityMod.MOD_ID);
     }
 }

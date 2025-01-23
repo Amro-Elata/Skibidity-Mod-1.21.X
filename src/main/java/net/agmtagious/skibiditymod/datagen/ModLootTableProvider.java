@@ -1,18 +1,15 @@
-package net.kaupenjoe.tutorialmod.datagen;
+package net.agmtagious.skibiditymod.datagen;
 
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricBlockLootTableProvider;
-import net.kaupenjoe.tutorialmod.block.ModBlocks;
-import net.kaupenjoe.tutorialmod.block.custom.CauliflowerCropBlock;
-import net.kaupenjoe.tutorialmod.block.custom.HoneyBerryBushBlock;
-import net.kaupenjoe.tutorialmod.item.ModItems;
+import net.agmtagious.skibiditymod.block.ModBlocks;
+import net.agmtagious.skibiditymod.block.custom.CauliflowerCropBlock;
+import net.agmtagious.skibiditymod.block.custom.HoneyBerryBushBlock;
+import net.agmtagious.skibiditymod.item.ModItems;
 import net.minecraft.block.Block;
-import net.minecraft.block.Blocks;
-import net.minecraft.block.SweetBerryBushBlock;
 import net.minecraft.enchantment.Enchantment;
 import net.minecraft.enchantment.Enchantments;
 import net.minecraft.item.Item;
-import net.minecraft.item.Items;
 import net.minecraft.loot.LootPool;
 import net.minecraft.loot.LootTable;
 import net.minecraft.loot.condition.BlockStatePropertyLootCondition;

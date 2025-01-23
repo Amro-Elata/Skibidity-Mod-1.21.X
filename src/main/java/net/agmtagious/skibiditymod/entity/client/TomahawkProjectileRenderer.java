@@ -1,7 +1,7 @@
-package net.kaupenjoe.tutorialmod.entity.client;
+package net.agmtagious.skibiditymod.entity.client;
 
-import net.kaupenjoe.tutorialmod.TutorialMod;
-import net.kaupenjoe.tutorialmod.entity.custom.TomahawkProjectileEntity;
+import net.agmtagious.skibiditymod.SkibidityMod;
+import net.agmtagious.skibiditymod.entity.custom.TomahawkProjectileEntity;
 import net.minecraft.client.render.OverlayTexture;
 import net.minecraft.client.render.VertexConsumer;
 import net.minecraft.client.render.VertexConsumerProvider;
@@ -37,7 +37,7 @@ public class TomahawkProjectileRenderer extends EntityRenderer<TomahawkProjectil
         }
 
         VertexConsumer vertexconsumer = ItemRenderer.getDirectItemGlintConsumer(vertexConsumers,
-                this.model.getLayer(Identifier.of(TutorialMod.MOD_ID, "textures/entity/tomahawk/tomahawk.png")), false, false);
+                this.model.getLayer(Identifier.of(SkibidityMod.MOD_ID, "textures/entity/tomahawk/tomahawk.png")), false, false);
         this.model.render(matrices, vertexconsumer, light, OverlayTexture.DEFAULT_UV);
 
         matrices.pop();
@@ -46,6 +46,6 @@ public class TomahawkProjectileRenderer extends EntityRenderer<TomahawkProjectil
 
     @Override
     public Identifier getTexture(TomahawkProjectileEntity entity) {
-        return Identifier.of(TutorialMod.MOD_ID, "textures/entity/tomahawk/tomahawk.png");
+        return Identifier.of(SkibidityMod.MOD_ID, "textures/entity/tomahawk/tomahawk.png");
     }
 }

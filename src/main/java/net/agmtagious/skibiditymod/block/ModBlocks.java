@@ -1,10 +1,10 @@
-package net.kaupenjoe.tutorialmod.block;
+package net.agmtagious.skibiditymod.block;
 
+import net.agmtagious.skibiditymod.SkibidityMod;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
-import net.kaupenjoe.tutorialmod.TutorialMod;
-import net.kaupenjoe.tutorialmod.block.custom.*;
-import net.kaupenjoe.tutorialmod.sound.ModSounds;
-import net.kaupenjoe.tutorialmod.world.tree.ModSaplingGenerators;
+import net.agmtagious.skibiditymod.block.custom.*;
+import net.agmtagious.skibiditymod.sound.ModSounds;
+import net.agmtagious.skibiditymod.world.tree.ModSaplingGenerators;
 import net.minecraft.block.*;
 import net.minecraft.block.piston.PistonBehavior;
 import net.minecraft.item.BlockItem;
@@ -99,21 +99,21 @@ public class ModBlocks {
 
 
     private static Block registerBlockWithoutBlockItem(String name, Block block) {
-        return Registry.register(Registries.BLOCK, Identifier.of(TutorialMod.MOD_ID, name), block);
+        return Registry.register(Registries.BLOCK, Identifier.of(SkibidityMod.MOD_ID, name), block);
     }
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
-        return Registry.register(Registries.BLOCK, Identifier.of(TutorialMod.MOD_ID, name), block);
+        return Registry.register(Registries.BLOCK, Identifier.of(SkibidityMod.MOD_ID, name), block);
     }
 
     private static void registerBlockItem(String name, Block block) {
-        Registry.register(Registries.ITEM, Identifier.of(TutorialMod.MOD_ID, name),
+        Registry.register(Registries.ITEM, Identifier.of(SkibidityMod.MOD_ID, name),
                 new BlockItem(block, new Item.Settings()));
     }
 
     public static void registerModBlocks() {
-        TutorialMod.LOGGER.info("Registering Mod Blocks for " + TutorialMod.MOD_ID);
+        SkibidityMod.LOGGER.info("Registering Mod Blocks for " + SkibidityMod.MOD_ID);
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(entries -> {
             entries.add(ModBlocks.PINK_GARNET_BLOCK);

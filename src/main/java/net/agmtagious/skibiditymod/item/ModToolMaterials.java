@@ -1,7 +1,7 @@
-package net.kaupenjoe.tutorialmod.item;
+package net.agmtagious.skibiditymod.item;
 
 import com.google.common.base.Suppliers;
-import net.kaupenjoe.tutorialmod.util.ModTags;
+import net.agmtagious.skibiditymod.util.ModTags;
 import net.minecraft.block.Block;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;

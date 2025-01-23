@@ -1,9 +1,9 @@
-package net.kaupenjoe.tutorialmod.villager;
+package net.agmtagious.skibiditymod.villager;
 
 import com.google.common.collect.ImmutableSet;
+import net.agmtagious.skibiditymod.SkibidityMod;
 import net.fabricmc.fabric.api.object.builder.v1.world.poi.PointOfInterestHelper;
-import net.kaupenjoe.tutorialmod.TutorialMod;
-import net.kaupenjoe.tutorialmod.block.ModBlocks;
+import net.agmtagious.skibiditymod.block.ModBlocks;
 import net.minecraft.block.Block;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
@@ -22,21 +22,21 @@ public class ModVillagers {
     
 
     private static VillagerProfession registerProfession(String name, RegistryKey<PointOfInterestType> type) {
-        return Registry.register(Registries.VILLAGER_PROFESSION, Identifier.of(TutorialMod.MOD_ID, name),
+        return Registry.register(Registries.VILLAGER_PROFESSION, Identifier.of(SkibidityMod.MOD_ID, name),
                 new VillagerProfession(name, entry -> entry.matchesKey(type), entry -> entry.matchesKey(type),
                         ImmutableSet.of(), ImmutableSet.of(), SoundEvents.ENTITY_VILLAGER_WORK_LIBRARIAN));
     }
 
     private static PointOfInterestType registerPOI(String name, Block block) {
-        return PointOfInterestHelper.register(Identifier.of(TutorialMod.MOD_ID, name),
+        return PointOfInterestHelper.register(Identifier.of(SkibidityMod.MOD_ID, name),
                 1, 1, block);
     }
 
     private static RegistryKey<PointOfInterestType> registerPoiKey(String name) {
-        return RegistryKey.of(RegistryKeys.POINT_OF_INTEREST_TYPE, Identifier.of(TutorialMod.MOD_ID, name));
+        return RegistryKey.of(RegistryKeys.POINT_OF_INTEREST_TYPE, Identifier.of(SkibidityMod.MOD_ID, name));
     }
 
     public static void registerVillagers() {
-        TutorialMod.LOGGER.info("Registering Villagers for " + TutorialMod.MOD_ID);
+        SkibidityMod.LOGGER.info("Registering Villagers for " + SkibidityMod.MOD_ID);
     }
 }

@@ -1,7 +1,6 @@
-package net.kaupenjoe.tutorialmod.block.custom;
+package net.agmtagious.skibiditymod.block.custom;
 
-import net.kaupenjoe.tutorialmod.item.ModItems;
-import net.kaupenjoe.tutorialmod.util.ModTags;
+import net.agmtagious.skibiditymod.util.ModTags;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.entity.Entity;

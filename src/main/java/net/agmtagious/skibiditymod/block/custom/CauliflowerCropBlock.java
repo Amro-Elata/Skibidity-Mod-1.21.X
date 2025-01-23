@@ -1,6 +1,6 @@
-package net.kaupenjoe.tutorialmod.block.custom;
+package net.agmtagious.skibiditymod.block.custom;
 
-import net.kaupenjoe.tutorialmod.item.ModItems;
+import net.agmtagious.skibiditymod.item.ModItems;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.CropBlock;

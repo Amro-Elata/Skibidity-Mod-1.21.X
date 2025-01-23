@@ -1,6 +1,6 @@
-package net.kaupenjoe.tutorialmod.util;
+package net.agmtagious.skibiditymod.util;
 
-import net.kaupenjoe.tutorialmod.TutorialMod;
+import net.agmtagious.skibiditymod.SkibidityMod;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
 import net.minecraft.registry.RegistryKeys;
@@ -13,7 +13,7 @@ public class ModTags {
         public static final TagKey<Block> INCORRECT_FOR_PINK_GARNET_TOOL = createTag("incorrect_for_pink_garnet_tool");
 
         private static TagKey<Block> createTag(String name) {
-            return TagKey.of(RegistryKeys.BLOCK, Identifier.of(TutorialMod.MOD_ID, name));
+            return TagKey.of(RegistryKeys.BLOCK, Identifier.of(SkibidityMod.MOD_ID, name));
         }
     }
 
@@ -21,7 +21,7 @@ public class ModTags {
         public static final TagKey<Item> TRANSFORMABLE_ITEMS = createTag("transformable_items");
 
         private static TagKey<Item> createTag(String name) {
-            return TagKey.of(RegistryKeys.ITEM, Identifier.of(TutorialMod.MOD_ID, name));
+            return TagKey.of(RegistryKeys.ITEM, Identifier.of(SkibidityMod.MOD_ID, name));
         }
     }
 }

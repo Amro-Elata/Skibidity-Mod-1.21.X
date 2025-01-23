@@ -1,12 +1,12 @@
-package net.kaupenjoe.tutorialmod.datagen;
+package net.agmtagious.skibiditymod.datagen;
 
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
-import net.kaupenjoe.tutorialmod.block.ModBlocks;
-import net.kaupenjoe.tutorialmod.block.custom.CauliflowerCropBlock;
-import net.kaupenjoe.tutorialmod.block.custom.HoneyBerryBushBlock;
-import net.kaupenjoe.tutorialmod.block.custom.PinkGarnetLampBlock;
-import net.kaupenjoe.tutorialmod.item.ModItems;
+import net.agmtagious.skibiditymod.block.ModBlocks;
+import net.agmtagious.skibiditymod.block.custom.CauliflowerCropBlock;
+import net.agmtagious.skibiditymod.block.custom.HoneyBerryBushBlock;
+import net.agmtagious.skibiditymod.block.custom.PinkGarnetLampBlock;
+import net.agmtagious.skibiditymod.item.ModItems;
 import net.minecraft.data.client.*;
 import net.minecraft.item.ArmorItem;
 import net.minecraft.util.Identifier;

@@ -1,7 +1,7 @@
-package net.kaupenjoe.tutorialmod.potion;
+package net.agmtagious.skibiditymod.potion;
 
-import net.kaupenjoe.tutorialmod.TutorialMod;
-import net.kaupenjoe.tutorialmod.effect.ModEffects;
+import net.agmtagious.skibiditymod.SkibidityMod;
+import net.agmtagious.skibiditymod.effect.ModEffects;
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.potion.Potion;
 import net.minecraft.registry.Registries;
@@ -15,10 +15,10 @@ public class ModPotions {
 
 
     private static RegistryEntry<Potion> registerPotion(String name, Potion potion) {
-        return Registry.registerReference(Registries.POTION, Identifier.of(TutorialMod.MOD_ID, name), potion);
+        return Registry.registerReference(Registries.POTION, Identifier.of(SkibidityMod.MOD_ID, name), potion);
     }
 
     public static void registerPotions() {
-        TutorialMod.LOGGER.info("Registering Mod Potions for " + TutorialMod.MOD_ID);
+        SkibidityMod.LOGGER.info("Registering Mod Potions for " + SkibidityMod.MOD_ID);
     }
 }

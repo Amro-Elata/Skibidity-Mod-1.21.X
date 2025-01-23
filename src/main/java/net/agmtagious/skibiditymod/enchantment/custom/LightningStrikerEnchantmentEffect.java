@@ -1,4 +1,4 @@
-package net.kaupenjoe.tutorialmod.enchantment.custom;
+package net.agmtagious.skibiditymod.enchantment.custom;
 
 import com.mojang.serialization.MapCodec;
 import net.minecraft.enchantment.EnchantmentEffectContext;

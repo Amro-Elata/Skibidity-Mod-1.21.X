@@ -1,9 +1,9 @@
-package net.kaupenjoe.tutorialmod.datagen;
+package net.agmtagious.skibiditymod.datagen;
 
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
-import net.kaupenjoe.tutorialmod.block.ModBlocks;
-import net.kaupenjoe.tutorialmod.util.ModTags;
+import net.agmtagious.skibiditymod.block.ModBlocks;
+import net.agmtagious.skibiditymod.util.ModTags;
 import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.registry.tag.BlockTags;
 

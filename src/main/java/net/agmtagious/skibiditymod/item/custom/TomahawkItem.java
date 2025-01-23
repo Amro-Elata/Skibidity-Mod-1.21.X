@@ -1,6 +1,6 @@
-package net.kaupenjoe.tutorialmod.item.custom;
+package net.agmtagious.skibiditymod.item.custom;
 
-import net.kaupenjoe.tutorialmod.entity.custom.TomahawkProjectileEntity;
+import net.agmtagious.skibiditymod.entity.custom.TomahawkProjectileEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;

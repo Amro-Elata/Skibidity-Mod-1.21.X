@@ -1,4 +1,4 @@
-package net.kaupenjoe.tutorialmod.effect;
+package net.agmtagious.skibiditymod.effect;
 
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.effect.StatusEffect;

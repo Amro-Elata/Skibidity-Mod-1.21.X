@@ -1,4 +1,4 @@
-package net.kaupenjoe.tutorialmod.entity.custom;
+package net.agmtagious.skibiditymod.entity.custom;
 
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityType;

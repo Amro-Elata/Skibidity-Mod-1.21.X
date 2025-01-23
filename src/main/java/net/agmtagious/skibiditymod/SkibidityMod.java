@@ -1,4 +1,4 @@
-package net.kaupenjoe.tutorialmod;
+package net.agmtagious.skibiditymod;
 
 import net.fabricmc.api.ModInitializer;
 
@@ -7,20 +7,19 @@ import net.fabricmc.fabric.api.event.player.PlayerBlockBreakEvents;
 import net.fabricmc.fabric.api.object.builder.v1.entity.FabricDefaultAttributeRegistry;
 import net.fabricmc.fabric.api.object.builder.v1.trade.TradeOfferHelper;
 import net.fabricmc.fabric.api.registry.*;
-import net.kaupenjoe.tutorialmod.block.ModBlocks;
-import net.kaupenjoe.tutorialmod.component.ModDataComponentTypes;
-import net.kaupenjoe.tutorialmod.effect.ModEffects;
-import net.kaupenjoe.tutorialmod.enchantment.ModEnchantmentEffects;
-import net.kaupenjoe.tutorialmod.enchantment.ModEnchantments;
-import net.kaupenjoe.tutorialmod.entity.ModEntities;
-import net.kaupenjoe.tutorialmod.entity.custom.MantisEntity;
-import net.kaupenjoe.tutorialmod.item.ModItemGroups;
-import net.kaupenjoe.tutorialmod.item.ModItems;
-import net.kaupenjoe.tutorialmod.potion.ModPotions;
-import net.kaupenjoe.tutorialmod.sound.ModSounds;
-import net.kaupenjoe.tutorialmod.util.HammerUsageEvent;
-import net.kaupenjoe.tutorialmod.villager.ModVillagers;
-import net.kaupenjoe.tutorialmod.world.gen.ModWorldGeneration;
+import net.agmtagious.skibiditymod.block.ModBlocks;
+import net.agmtagious.skibiditymod.component.ModDataComponentTypes;
+import net.agmtagious.skibiditymod.effect.ModEffects;
+import net.agmtagious.skibiditymod.enchantment.ModEnchantmentEffects;
+import net.agmtagious.skibiditymod.entity.ModEntities;
+import net.agmtagious.skibiditymod.entity.custom.MantisEntity;
+import net.agmtagious.skibiditymod.item.ModItemGroups;
+import net.agmtagious.skibiditymod.item.ModItems;
+import net.agmtagious.skibiditymod.potion.ModPotions;
+import net.agmtagious.skibiditymod.sound.ModSounds;
+import net.agmtagious.skibiditymod.util.HammerUsageEvent;
+import net.agmtagious.skibiditymod.villager.ModVillagers;
+import net.agmtagious.skibiditymod.world.gen.ModWorldGeneration;
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.entity.passive.SheepEntity;
@@ -36,7 +35,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 // Very important comment
-public class TutorialMod implements ModInitializer {
+public class SkibidityMod implements ModInitializer {
 	public static final String MOD_ID = "tutorialmod";
     public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 

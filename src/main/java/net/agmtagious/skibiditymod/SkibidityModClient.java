@@ -1,16 +1,16 @@
-package net.kaupenjoe.tutorialmod;
+package net.agmtagious.skibiditymod;
 
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
 import net.fabricmc.fabric.api.client.rendering.v1.EntityModelLayerRegistry;
 import net.fabricmc.fabric.api.client.rendering.v1.EntityRendererRegistry;
-import net.kaupenjoe.tutorialmod.block.ModBlocks;
-import net.kaupenjoe.tutorialmod.entity.ModEntities;
-import net.kaupenjoe.tutorialmod.entity.client.*;
-import net.kaupenjoe.tutorialmod.util.ModModelPredicates;
+import net.agmtagious.skibiditymod.block.ModBlocks;
+import net.agmtagious.skibiditymod.entity.ModEntities;
+import net.agmtagious.skibiditymod.entity.client.*;
+import net.agmtagious.skibiditymod.util.ModModelPredicates;
 import net.minecraft.client.render.RenderLayer;
 
-public class TutorialModClient implements ClientModInitializer {
+public class SkibidityModClient implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.PINK_GARNET_DOOR, RenderLayer.getCutout());

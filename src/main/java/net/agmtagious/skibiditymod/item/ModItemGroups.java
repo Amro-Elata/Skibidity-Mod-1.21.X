@@ -1,8 +1,8 @@
-package net.kaupenjoe.tutorialmod.item;
+package net.agmtagious.skibiditymod.item;
 
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
-import net.kaupenjoe.tutorialmod.TutorialMod;
-import net.kaupenjoe.tutorialmod.block.ModBlocks;
+import net.agmtagious.skibiditymod.SkibidityMod;
+import net.agmtagious.skibiditymod.block.ModBlocks;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.registry.Registries;
@@ -12,7 +12,7 @@ import net.minecraft.util.Identifier;
 
 public class ModItemGroups {
     public static final ItemGroup PINK_GARNET_ITEMS_GROUP = Registry.register(Registries.ITEM_GROUP,
-            Identifier.of(TutorialMod.MOD_ID, "pink_garnet_items"),
+            Identifier.of(SkibidityMod.MOD_ID, "pink_garnet_items"),
             FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.PINK_GARNET))
                     .displayName(Text.translatable("itemgroup.tutorialmod.pink_garnet_items"))
                     .entries((displayContext, entries) -> {
@@ -54,7 +54,7 @@ public class ModItemGroups {
                     }).build());
 
     public static final ItemGroup PINK_GARNET_BLOCKS_GROUP = Registry.register(Registries.ITEM_GROUP,
-            Identifier.of(TutorialMod.MOD_ID, "pink_garnet_blocks"),
+            Identifier.of(SkibidityMod.MOD_ID, "pink_garnet_blocks"),
             FabricItemGroup.builder().icon(() -> new ItemStack(ModBlocks.PINK_GARNET_BLOCK))
                     .displayName(Text.translatable("itemgroup.tutorialmod.pink_garnet_blocks"))
                     .entries((displayContext, entries) -> {
@@ -98,6 +98,6 @@ public class ModItemGroups {
 
 
     public static void registerItemGroups() {
-        TutorialMod.LOGGER.info("Registering Item Groups for " + TutorialMod.MOD_ID);
+        SkibidityMod.LOGGER.info("Registering Item Groups for " + SkibidityMod.MOD_ID);
     }
 }

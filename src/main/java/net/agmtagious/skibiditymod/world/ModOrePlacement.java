@@ -1,4 +1,4 @@
-package net.kaupenjoe.tutorialmod.world;
+package net.agmtagious.skibiditymod.world;
 
 import net.minecraft.world.gen.placementmodifier.*;
 

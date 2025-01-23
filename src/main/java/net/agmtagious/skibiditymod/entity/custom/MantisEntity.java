@@ -1,7 +1,7 @@
-package net.kaupenjoe.tutorialmod.entity.custom;
+package net.agmtagious.skibiditymod.entity.custom;
 
-import net.kaupenjoe.tutorialmod.entity.ModEntities;
-import net.kaupenjoe.tutorialmod.item.ModItems;
+import net.agmtagious.skibiditymod.entity.ModEntities;
+import net.agmtagious.skibiditymod.item.ModItems;
 import net.minecraft.entity.AnimationState;
 import net.minecraft.entity.EntityData;
 import net.minecraft.entity.EntityType;

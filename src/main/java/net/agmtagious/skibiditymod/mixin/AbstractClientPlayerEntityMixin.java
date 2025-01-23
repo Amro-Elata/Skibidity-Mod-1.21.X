@@ -1,7 +1,7 @@
-package net.kaupenjoe.tutorialmod.mixin;
+package net.agmtagious.skibiditymod.mixin;
 
 import com.mojang.authlib.GameProfile;
-import net.kaupenjoe.tutorialmod.item.ModItems;
+import net.agmtagious.skibiditymod.item.ModItems;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.network.AbstractClientPlayerEntity;
 import net.minecraft.entity.player.PlayerEntity;

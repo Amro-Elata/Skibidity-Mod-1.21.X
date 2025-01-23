@@ -1,17 +1,17 @@
-package net.kaupenjoe.tutorialmod;
+package net.agmtagious.skibiditymod;
 
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
-import net.kaupenjoe.tutorialmod.datagen.*;
-import net.kaupenjoe.tutorialmod.enchantment.ModEnchantments;
-import net.kaupenjoe.tutorialmod.trim.ModTrimMaterials;
-import net.kaupenjoe.tutorialmod.trim.ModTrimPatterns;
-import net.kaupenjoe.tutorialmod.world.ModConfiguredFeatures;
-import net.kaupenjoe.tutorialmod.world.ModPlacedFeatures;
+import net.agmtagious.skibiditymod.datagen.*;
+import net.agmtagious.skibiditymod.enchantment.ModEnchantments;
+import net.agmtagious.skibiditymod.trim.ModTrimMaterials;
+import net.agmtagious.skibiditymod.trim.ModTrimPatterns;
+import net.agmtagious.skibiditymod.world.ModConfiguredFeatures;
+import net.agmtagious.skibiditymod.world.ModPlacedFeatures;
 import net.minecraft.registry.RegistryBuilder;
 import net.minecraft.registry.RegistryKeys;
 
-public class TutorialModDataGenerator implements DataGeneratorEntrypoint {
+public class SkibidityModDataGenerator implements DataGeneratorEntrypoint {
 	@Override
 	public void onInitializeDataGenerator(FabricDataGenerator fabricDataGenerator) {
 		FabricDataGenerator.Pack pack = fabricDataGenerator.createPack();

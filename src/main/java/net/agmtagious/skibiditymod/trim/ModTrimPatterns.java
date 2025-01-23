@@ -1,7 +1,7 @@
-package net.kaupenjoe.tutorialmod.trim;
+package net.agmtagious.skibiditymod.trim;
 
-import net.kaupenjoe.tutorialmod.TutorialMod;
-import net.kaupenjoe.tutorialmod.item.ModItems;
+import net.agmtagious.skibiditymod.SkibidityMod;
+import net.agmtagious.skibiditymod.item.ModItems;
 import net.minecraft.item.Item;
 import net.minecraft.item.trim.ArmorTrimPattern;
 import net.minecraft.registry.Registerable;
@@ -14,7 +14,7 @@ import net.minecraft.util.Util;
 
 public class ModTrimPatterns {
     public static final RegistryKey<ArmorTrimPattern> KAUPEN = RegistryKey.of(RegistryKeys.TRIM_PATTERN,
-            Identifier.of(TutorialMod.MOD_ID, "kaupen"));
+            Identifier.of(SkibidityMod.MOD_ID, "kaupen"));
 
     public static void bootstrap(Registerable<ArmorTrimPattern> context) {
         register(context, ModItems.KAUPEN_SMITHING_TEMPLATE, KAUPEN);

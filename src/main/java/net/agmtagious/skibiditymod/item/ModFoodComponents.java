@@ -1,4 +1,4 @@
-package net.kaupenjoe.tutorialmod.item;
+package net.agmtagious.skibiditymod.item;
 
 import net.minecraft.component.type.FoodComponent;
 import net.minecraft.entity.effect.StatusEffectInstance;

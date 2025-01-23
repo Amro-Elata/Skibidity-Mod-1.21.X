@@ -1,7 +1,7 @@
-package net.kaupenjoe.tutorialmod.util;
+package net.agmtagious.skibiditymod.util;
 
 import net.fabricmc.fabric.api.event.player.PlayerBlockBreakEvents;
-import net.kaupenjoe.tutorialmod.item.custom.HammerItem;
+import net.agmtagious.skibiditymod.item.custom.HammerItem;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.entity.BlockEntity;
 import net.minecraft.entity.player.PlayerEntity;

@@ -1,4 +1,4 @@
-package net.kaupenjoe.tutorialmod.block.custom;
+package net.agmtagious.skibiditymod.block.custom;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;

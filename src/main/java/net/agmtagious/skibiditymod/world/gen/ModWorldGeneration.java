@@ -1,4 +1,4 @@
-package net.kaupenjoe.tutorialmod.world.gen;
+package net.agmtagious.skibiditymod.world.gen;
 
 public class ModWorldGeneration {
     public static void generateModWorldGen() {

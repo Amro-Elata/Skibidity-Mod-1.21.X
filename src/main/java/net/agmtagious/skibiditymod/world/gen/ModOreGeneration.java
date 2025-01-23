@@ -1,8 +1,8 @@
-package net.kaupenjoe.tutorialmod.world.gen;
+package net.agmtagious.skibiditymod.world.gen;
 
 import net.fabricmc.fabric.api.biome.v1.BiomeModifications;
 import net.fabricmc.fabric.api.biome.v1.BiomeSelectors;
-import net.kaupenjoe.tutorialmod.world.ModPlacedFeatures;
+import net.agmtagious.skibiditymod.world.ModPlacedFeatures;
 import net.minecraft.world.gen.GenerationStep;
 
 public class ModOreGeneration {

@@ -1,7 +1,7 @@
-package net.kaupenjoe.tutorialmod.trim;
+package net.agmtagious.skibiditymod.trim;
 
-import net.kaupenjoe.tutorialmod.TutorialMod;
-import net.kaupenjoe.tutorialmod.item.ModItems;
+import net.agmtagious.skibiditymod.SkibidityMod;
+import net.agmtagious.skibiditymod.item.ModItems;
 import net.minecraft.item.Item;
 import net.minecraft.item.trim.ArmorTrimMaterial;
 import net.minecraft.registry.Registerable;
@@ -19,7 +19,7 @@ import java.util.Map;
 
 public class ModTrimMaterials {
     public static final RegistryKey<ArmorTrimMaterial> PINK_GARNET = RegistryKey.of(RegistryKeys.TRIM_MATERIAL,
-            Identifier.of(TutorialMod.MOD_ID, "pink_garnet"));
+            Identifier.of(SkibidityMod.MOD_ID, "pink_garnet"));
 
     public static void bootstrap(Registerable<ArmorTrimMaterial> registerable) {
         register(registerable, PINK_GARNET, Registries.ITEM.getEntry(ModItems.PINK_GARNET),

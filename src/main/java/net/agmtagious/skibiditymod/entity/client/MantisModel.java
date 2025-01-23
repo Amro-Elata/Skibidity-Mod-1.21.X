@@ -1,7 +1,7 @@
-package net.kaupenjoe.tutorialmod.entity.client;
+package net.agmtagious.skibiditymod.entity.client;
 
-import net.kaupenjoe.tutorialmod.TutorialMod;
-import net.kaupenjoe.tutorialmod.entity.custom.MantisEntity;
+import net.agmtagious.skibiditymod.SkibidityMod;
+import net.agmtagious.skibiditymod.entity.custom.MantisEntity;
 import net.minecraft.client.model.*;
 import net.minecraft.client.render.VertexConsumer;
 import net.minecraft.client.render.entity.model.EntityModelLayer;
@@ -11,7 +11,7 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.math.MathHelper;
 
 public class MantisModel<T extends MantisEntity> extends SinglePartEntityModel<T> {
-    public static final EntityModelLayer MANTIS = new EntityModelLayer(Identifier.of(TutorialMod.MOD_ID, "mantis"), "main");
+    public static final EntityModelLayer MANTIS = new EntityModelLayer(Identifier.of(SkibidityMod.MOD_ID, "mantis"), "main");
     private final ModelPart root;
     private final ModelPart mantis;
     private final ModelPart head;

@@ -1,4 +1,4 @@
-package net.kaupenjoe.tutorialmod.mixin;
+package net.agmtagious.skibiditymod.mixin;
 
 import net.minecraft.server.MinecraftServer;
 import org.spongepowered.asm.mixin.Mixin;

@@ -1,6 +1,6 @@
-package net.kaupenjoe.tutorialmod.item;
+package net.agmtagious.skibiditymod.item;
 
-import net.kaupenjoe.tutorialmod.TutorialMod;
+import net.agmtagious.skibiditymod.SkibidityMod;
 import net.minecraft.item.ArmorItem;
 import net.minecraft.item.ArmorMaterial;
 import net.minecraft.recipe.Ingredient;
@@ -24,10 +24,10 @@ public class ModArmorMaterials {
                 map.put(ArmorItem.Type.HELMET, 2);
                 map.put(ArmorItem.Type.BODY, 4);
             }), 20, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, () -> Ingredient.ofItems(ModItems.PINK_GARNET),
-                    List.of(new ArmorMaterial.Layer(Identifier.of(TutorialMod.MOD_ID, "pink_garnet"))), 0,0));
+                    List.of(new ArmorMaterial.Layer(Identifier.of(SkibidityMod.MOD_ID, "pink_garnet"))), 0,0));
 
 
     public static RegistryEntry<ArmorMaterial> registerArmorMaterial(String name, Supplier<ArmorMaterial> material) {
-        return Registry.registerReference(Registries.ARMOR_MATERIAL, Identifier.of(TutorialMod.MOD_ID, name), material.get());
+        return Registry.registerReference(Registries.ARMOR_MATERIAL, Identifier.of(SkibidityMod.MOD_ID, name), material.get());
     }
 }

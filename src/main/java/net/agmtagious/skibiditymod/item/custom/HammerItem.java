@@ -1,4 +1,4 @@
-package net.kaupenjoe.tutorialmod.item.custom;
+package net.agmtagious.skibiditymod.item.custom;
 
 import net.minecraft.item.MiningToolItem;
 import net.minecraft.item.ToolMaterial;

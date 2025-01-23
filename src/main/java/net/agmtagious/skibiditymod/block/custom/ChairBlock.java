@@ -1,8 +1,8 @@
-package net.kaupenjoe.tutorialmod.block.custom;
+package net.agmtagious.skibiditymod.block.custom;
 
 import com.mojang.serialization.MapCodec;
-import net.kaupenjoe.tutorialmod.entity.ModEntities;
-import net.kaupenjoe.tutorialmod.entity.custom.ChairEntity;
+import net.agmtagious.skibiditymod.entity.ModEntities;
+import net.agmtagious.skibiditymod.entity.custom.ChairEntity;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.HorizontalFacingBlock;
