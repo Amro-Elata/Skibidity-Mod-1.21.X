@@ -11,7 +11,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "tutorialmod:magic_block"
+          "name": "skibiditymod:magic_block"
         }
       ],
       "rolls": 1.0

@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [32, 32],
 	"textures": {
-		"0": "tutorialmod:item/tomahawk",
-		"particle": "tutorialmod:item/tomahawk"
+		"0": "skibiditymod:item/tomahawk",
+		"particle": "skibiditymod:item/tomahawk"
 	},
 	"elements": [
 		{

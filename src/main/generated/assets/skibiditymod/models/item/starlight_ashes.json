@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "tutorialmod:item/starlight_ashes"
+    "layer0": "skibiditymod:item/starlight_ashes"
   }
 }

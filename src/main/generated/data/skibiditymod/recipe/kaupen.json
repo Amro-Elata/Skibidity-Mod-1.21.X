@@ -7,6 +7,6 @@
     "tag": "minecraft:trimmable_armor"
   },
   "template": {
-    "item": "tutorialmod:kaupen_armor_trim_smithing_template"
+    "item": "skibiditymod:kaupen_armor_trim_smithing_template"
   }
 }

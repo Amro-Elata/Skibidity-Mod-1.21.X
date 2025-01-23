@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:block/door_bottom_left_open",
   "textures": {
-    "bottom": "tutorialmod:block/pink_garnet_door_bottom",
-    "top": "tutorialmod:block/pink_garnet_door_top"
+    "bottom": "skibiditymod:block/pink_garnet_door_bottom",
+    "top": "skibiditymod:block/pink_garnet_door_top"
   }
 }

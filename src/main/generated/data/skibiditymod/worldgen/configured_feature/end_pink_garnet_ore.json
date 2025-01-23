@@ -6,7 +6,7 @@
     "targets": [
       {
         "state": {
-          "Name": "tutorialmod:pink_garnet_end_ore"
+          "Name": "skibiditymod:pink_garnet_end_ore"
         },
         "target": {
           "block": "minecraft:end_stone",

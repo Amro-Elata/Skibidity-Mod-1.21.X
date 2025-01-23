@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "tutorialmod:block/driftwood_leaves"
+      "model": "skibiditymod:block/driftwood_leaves"
     }
   }
 }

@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "tutorialmod:block/raw_pink_garnet_block"
+      "model": "skibiditymod:block/raw_pink_garnet_block"
     }
   }
 }

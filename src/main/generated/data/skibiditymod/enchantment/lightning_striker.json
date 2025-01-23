@@ -1,14 +1,14 @@
 {
   "anvil_cost": 2,
   "description": {
-    "translate": "enchantment.tutorialmod.lightning_striker"
+    "translate": "enchantment.skibiditymod.lightning_striker"
   },
   "effects": {
     "minecraft:post_attack": [
       {
         "affected": "victim",
         "effect": {
-          "type": "tutorialmod:lightning_striker"
+          "type": "skibiditymod:lightning_striker"
         },
         "enchanted": "attacker"
       }

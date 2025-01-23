@@ -37,7 +37,7 @@
                   ]
                 }
               ],
-              "name": "tutorialmod:driftwood_leaves"
+              "name": "skibiditymod:driftwood_leaves"
             },
             {
               "type": "minecraft:item",
@@ -53,7 +53,7 @@
                   "enchantment": "minecraft:fortune"
                 }
               ],
-              "name": "tutorialmod:driftwood_sapling"
+              "name": "skibiditymod:driftwood_sapling"
             }
           ]
         }

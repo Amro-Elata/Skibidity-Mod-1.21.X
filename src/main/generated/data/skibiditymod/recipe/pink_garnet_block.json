@@ -3,7 +3,7 @@
   "category": "misc",
   "key": {
     "#": {
-      "item": "tutorialmod:pink_garnet"
+      "item": "skibiditymod:pink_garnet"
     }
   },
   "pattern": [
@@ -13,6 +13,6 @@
   ],
   "result": {
     "count": 1,
-    "id": "tutorialmod:pink_garnet_block"
+    "id": "skibiditymod:pink_garnet_block"
   }
 }

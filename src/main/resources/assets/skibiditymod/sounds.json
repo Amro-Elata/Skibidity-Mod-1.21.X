@@ -1,44 +1,44 @@
 {
   "chisel_use": {
-    "subtitle": "sounds.tutorialmod.chisel_use",
+    "subtitle": "sounds.skibiditymod.chisel_use",
     "sounds": [
-      "tutorialmod:chisel_use"
+      "skibiditymod:chisel_use"
     ]
   },
   "magic_block_break": {
-    "subtitle": "sounds.tutorialmod.magic_block_break",
+    "subtitle": "sounds.skibiditymod.magic_block_break",
     "sounds": [
-      "tutorialmod:magic_block_break"
+      "skibiditymod:magic_block_break"
     ]
   },
   "magic_block_step": {
-    "subtitle": "sounds.tutorialmod.magic_block_step",
+    "subtitle": "sounds.skibiditymod.magic_block_step",
     "sounds": [
-      "tutorialmod:magic_block_step"
+      "skibiditymod:magic_block_step"
     ]
   },
   "magic_block_place": {
-    "subtitle": "sounds.tutorialmod.magic_block_place",
+    "subtitle": "sounds.skibiditymod.magic_block_place",
     "sounds": [
-      "tutorialmod:magic_block_place"
+      "skibiditymod:magic_block_place"
     ]
   },
   "magic_block_hit": {
-    "subtitle": "sounds.tutorialmod.magic_block_hit",
+    "subtitle": "sounds.skibiditymod.magic_block_hit",
     "sounds": [
-      "tutorialmod:magic_block_hit"
+      "skibiditymod:magic_block_hit"
     ]
   },
   "magic_block_fall": {
-    "subtitle": "sounds.tutorialmod.magic_block_fall",
+    "subtitle": "sounds.skibiditymod.magic_block_fall",
     "sounds": [
-      "tutorialmod:magic_block_fall"
+      "skibiditymod:magic_block_fall"
     ]
   },
   "bar_brawl": {
     "sounds": [
       {
-        "name": "tutorialmod:bar_brawl",
+        "name": "skibiditymod:bar_brawl",
         "stream": true
       }
     ]

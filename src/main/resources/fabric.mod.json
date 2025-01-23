@@ -1,28 +1,28 @@
 {
 	"schemaVersion": 1,
-	"id": "tutorialmod",
+	"id": "skibiditymod",
 	"version": "${version}",
-	"name": "Tutorial Mod",
-	"description": "Tutorial Mod by Kaupenjoe for YouTube",
+	"name": "Skibidity Mod",
+	"description": "Skibidity Mod by Kaupenjoe for YouTube",
 	"authors": [
 		"Kaupenjoe!"
 	],
 	"contact": {
-		"homepage": "https://kaupenjoe.net",
+		"homepage": "https://agmtagious.net",
 		"sources": "https://github.com/Tutorials-By-Kaupenjoe/Fabric-Tutorial-1.21.X"
 	},
 	"license": "MIT",
-	"icon": "assets/tutorialmod/icon.png",
+	"icon": "assets/skibiditymod/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"net.kaupenjoe.tutorialmod.TutorialMod"
+			"net.agmtagious.skibiditymod.SkibidityMod"
 		],
 		"fabric-datagen": [
-			"net.kaupenjoe.tutorialmod.TutorialModDataGenerator"
+			"net.agmtagious.skibiditymod.SkibidityModDataGenerator"
 		],
 		"client": [
-			"net.kaupenjoe.tutorialmod.TutorialModClient"
+			"net.agmtagious.skibiditymod.SkibidityModClient"
 		]
 	},
 	"mixins": [

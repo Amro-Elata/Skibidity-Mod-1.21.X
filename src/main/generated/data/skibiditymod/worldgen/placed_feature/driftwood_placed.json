@@ -1,5 +1,5 @@
 {
-  "feature": "tutorialmod:driftwood",
+  "feature": "skibiditymod:driftwood",
   "placement": [
     {
       "type": "minecraft:count",
@@ -36,7 +36,7 @@
       "predicate": {
         "type": "minecraft:would_survive",
         "state": {
-          "Name": "tutorialmod:driftwood_sapling",
+          "Name": "skibiditymod:driftwood_sapling",
           "Properties": {
             "stage": "0"
           }

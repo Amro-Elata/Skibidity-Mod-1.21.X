@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:block/cube_column",
   "textures": {
-    "end": "tutorialmod:block/stripped_driftwood_log",
-    "side": "tutorialmod:block/stripped_driftwood_log"
+    "end": "skibiditymod:block/stripped_driftwood_log",
+    "side": "skibiditymod:block/stripped_driftwood_log"
   }
 }

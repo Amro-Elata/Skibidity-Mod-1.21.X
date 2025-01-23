@@ -5,7 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": "tutorialmod:kaupen_armor_trim_smithing_template"
+            "items": "skibiditymod:kaupen_armor_trim_smithing_template"
           }
         ]
       },
@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "tutorialmod:kaupen"
+        "recipe": "skibiditymod:kaupen"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "tutorialmod:kaupen"
+      "skibiditymod:kaupen"
     ]
   }
 }

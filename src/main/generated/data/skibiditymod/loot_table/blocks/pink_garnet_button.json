@@ -11,7 +11,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "tutorialmod:pink_garnet_button"
+          "name": "skibiditymod:pink_garnet_button"
         }
       ],
       "rolls": 1.0

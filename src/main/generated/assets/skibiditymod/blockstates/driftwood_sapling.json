@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "tutorialmod:block/driftwood_sapling"
+      "model": "skibiditymod:block/driftwood_sapling"
     }
   }
 }

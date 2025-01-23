@@ -1,8 +1,8 @@
 {
   "values": [
-    "tutorialmod:driftwood_log",
-    "tutorialmod:driftwood_wood",
-    "tutorialmod:stripped_driftwood_log",
-    "tutorialmod:stripped_driftwood_wood"
+    "skibiditymod:driftwood_log",
+    "skibiditymod:driftwood_wood",
+    "skibiditymod:stripped_driftwood_log",
+    "skibiditymod:stripped_driftwood_wood"
   ]
 }

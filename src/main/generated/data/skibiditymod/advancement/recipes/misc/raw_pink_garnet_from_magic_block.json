@@ -5,7 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": "tutorialmod:magic_block"
+            "items": "skibiditymod:magic_block"
           }
         ]
       },
@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "tutorialmod:raw_pink_garnet_from_magic_block"
+        "recipe": "skibiditymod:raw_pink_garnet_from_magic_block"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "tutorialmod:raw_pink_garnet_from_magic_block"
+      "skibiditymod:raw_pink_garnet_from_magic_block"
     ]
   }
 }

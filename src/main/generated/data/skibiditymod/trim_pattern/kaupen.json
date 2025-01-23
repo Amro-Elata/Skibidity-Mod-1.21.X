@@ -1,8 +1,8 @@
 {
-  "asset_id": "tutorialmod:kaupen",
+  "asset_id": "skibiditymod:kaupen",
   "decal": false,
   "description": {
-    "translate": "trim_pattern.tutorialmod.kaupen"
+    "translate": "trim_pattern.skibiditymod.kaupen"
   },
-  "template_item": "tutorialmod:kaupen_armor_trim_smithing_template"
+  "template_item": "skibiditymod:kaupen_armor_trim_smithing_template"
 }

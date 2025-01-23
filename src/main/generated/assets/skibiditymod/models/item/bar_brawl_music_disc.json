@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "tutorialmod:item/bar_brawl_music_disc"
+    "layer0": "skibiditymod:item/bar_brawl_music_disc"
   }
 }

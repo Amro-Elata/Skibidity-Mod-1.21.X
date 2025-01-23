@@ -11,7 +11,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "tutorialmod:driftwood_log"
+          "name": "skibiditymod:driftwood_log"
         }
       ],
       "rolls": 1.0

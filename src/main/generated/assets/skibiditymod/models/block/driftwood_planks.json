@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "tutorialmod:block/driftwood_planks"
+    "all": "skibiditymod:block/driftwood_planks"
   }
 }

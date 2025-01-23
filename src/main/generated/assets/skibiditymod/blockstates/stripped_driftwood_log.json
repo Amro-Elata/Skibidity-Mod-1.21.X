@@ -1,15 +1,15 @@
 {
   "variants": {
     "axis=x": {
-      "model": "tutorialmod:block/stripped_driftwood_log_horizontal",
+      "model": "skibiditymod:block/stripped_driftwood_log_horizontal",
       "x": 90,
       "y": 90
     },
     "axis=y": {
-      "model": "tutorialmod:block/stripped_driftwood_log"
+      "model": "skibiditymod:block/stripped_driftwood_log"
     },
     "axis=z": {
-      "model": "tutorialmod:block/stripped_driftwood_log_horizontal",
+      "model": "skibiditymod:block/stripped_driftwood_log_horizontal",
       "x": 90
     }
   }

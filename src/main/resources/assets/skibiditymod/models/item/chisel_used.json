@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "tutorialmod:item/chisel_used"
+    "layer0": "skibiditymod:item/chisel_used"
   }
 }

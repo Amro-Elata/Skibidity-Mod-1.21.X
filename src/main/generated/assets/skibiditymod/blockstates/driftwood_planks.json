@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "tutorialmod:block/driftwood_planks"
+      "model": "skibiditymod:block/driftwood_planks"
     }
   }
 }

@@ -1,8 +1,8 @@
 {
   "parent": "minecraft:block/stairs",
   "textures": {
-    "bottom": "tutorialmod:block/pink_garnet_block",
-    "side": "tutorialmod:block/pink_garnet_block",
-    "top": "tutorialmod:block/pink_garnet_block"
+    "bottom": "skibiditymod:block/pink_garnet_block",
+    "side": "skibiditymod:block/pink_garnet_block",
+    "top": "skibiditymod:block/pink_garnet_block"
   }
 }

@@ -36,7 +36,7 @@ import org.slf4j.LoggerFactory;
 
 // Very important comment
 public class SkibidityMod implements ModInitializer {
-	public static final String MOD_ID = "tutorialmod";
+	public static final String MOD_ID = "skibiditymod";
     public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 
 	@Override

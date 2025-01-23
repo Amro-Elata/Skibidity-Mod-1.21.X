@@ -6,7 +6,7 @@
     "targets": [
       {
         "state": {
-          "Name": "tutorialmod:pink_garnet_ore"
+          "Name": "skibiditymod:pink_garnet_ore"
         },
         "target": {
           "predicate_type": "minecraft:tag_match",
@@ -15,7 +15,7 @@
       },
       {
         "state": {
-          "Name": "tutorialmod:pink_garnet_deepslate_ore"
+          "Name": "skibiditymod:pink_garnet_deepslate_ore"
         },
         "target": {
           "predicate_type": "minecraft:tag_match",

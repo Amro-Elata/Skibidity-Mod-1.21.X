@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/handheld",
   "textures": {
-    "layer0": "tutorialmod:item/pink_garnet_pickaxe"
+    "layer0": "skibiditymod:item/pink_garnet_pickaxe"
   }
 }

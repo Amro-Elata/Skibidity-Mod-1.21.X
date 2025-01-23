@@ -13,14 +13,14 @@
           "type": "minecraft:item",
           "conditions": [
             {
-              "block": "tutorialmod:pink_garnet_door",
+              "block": "skibiditymod:pink_garnet_door",
               "condition": "minecraft:block_state_property",
               "properties": {
                 "half": "lower"
               }
             }
           ],
-          "name": "tutorialmod:pink_garnet_door"
+          "name": "skibiditymod:pink_garnet_door"
         }
       ],
       "rolls": 1.0

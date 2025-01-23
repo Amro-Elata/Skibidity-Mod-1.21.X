@@ -11,7 +11,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "tutorialmod:driftwood_planks"
+          "name": "skibiditymod:driftwood_planks"
         }
       ],
       "rolls": 1.0

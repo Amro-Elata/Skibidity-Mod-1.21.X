@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "tutorialmod:item/honey_berries"
+    "layer0": "skibiditymod:item/honey_berries"
   }
 }
