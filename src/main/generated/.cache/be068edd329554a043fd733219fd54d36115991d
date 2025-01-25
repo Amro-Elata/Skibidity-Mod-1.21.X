@@ -1,4 +1,4 @@
-// 1.21.1	2025-01-23T23:23:21.7261117	Skibidity Mod/Tags for minecraft:item
+// 1.21.1	2025-01-25T14:31:28.9291044	Skibidity Mod/Tags for minecraft:item
 84f7bfc6952423054257cb777a1444375be50303 data\minecraft\tags\item\trim_templates.json
 b072edb5c7efb3051a8e6bc3751c81dcd242075f data\minecraft\tags\item\axes.json
 c7c3561aadebe14efc1be7530c3b80b84b72f024 data\skibiditymod\tags\item\transformable_items.json
@@ -8,5 +8,5 @@ c7c3561aadebe14efc1be7530c3b80b84b72f024 data\skibiditymod\tags\item\transformab
 e7dc90b6a997aee3cfe212a7b0996c4f6adae97e data\minecraft\tags\item\shovels.json
 be41e885bf312cb978b5241e73eea0d40f13dc56 data\minecraft\tags\item\hoes.json
 67c358d9b82206c5b0d40c1078d4dd3c16fbbee6 data\minecraft\tags\item\swords.json
-80907d7368e5cafdb9814976dad11667df601627 data\minecraft\tags\item\trimmable_armor.json
 bcb3e989f29ced1fd91d48bb1f7b8d12f79c4c75 data\minecraft\tags\item\trim_materials.json
+80907d7368e5cafdb9814976dad11667df601627 data\minecraft\tags\item\trimmable_armor.json
